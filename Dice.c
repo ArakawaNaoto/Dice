@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 int main(){
+        char name[10];
         srand(time(NULL));
+        printf("What is your name?\n");
+        scanf("%s",name);
+        printf("Hello %s !\n",name);
+
         printf("Rolling the dice\n");
         int x,y;
         x=rand()%6+1;
