@@ -11,5 +11,4 @@ int main(){
         printf("Die 2: %d\n",y);
         printf("Total value : %d",(x+y));
         return 0;
-
 }
